@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page 1</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-color: #0073e6;
+    height: 100vh;
+}
+.login-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+}
+.profile-picture img{
+    border-radius: 500px;
+    height: 150px;
+    width: 150px
+}
+h2{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #e2dbdb;
+}
+form{
+    margin-top: 20px;
+}
+input{
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #555;
+}
+p{
+    margin-top: 15px;  
+}
+p a{
+    text-decoration: none;
+    color: #fff;
+}
+p a:hover{
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <div class="login-container">
+    <div class="profile-picture"><img src="image.jpg" alt="profile picture">
+    </div>
+    <h2>lovely</h2>
+    <form>
+        <input type="text" placeholder="username" required>
+        <input type="text" placeholder="password" required>
+        <button type="submit">login</button>
+        <p><a href="#"> forgot username/password?</a></p>
+    </form>
+    </div>  
+</body>
+</html>
